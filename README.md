@@ -93,14 +93,4 @@ Analysis queries are available in sql/queries.sql, including:
 - Top products by revenue
 - Sales by hour and day of week
 
-## Tableau 📈
-
-Use data/coffee_shop_sales_enriched.csv as the Tableau source file.
-
-Recommended dashboard sections:
-
-- KPI cards: Total Revenue, Total Orders, Average Order Value
-- Revenue by Month
-- Sales by Hour
-- Top 10 Products by Revenue
 
