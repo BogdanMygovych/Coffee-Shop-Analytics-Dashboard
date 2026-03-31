@@ -33,9 +33,15 @@ This project cleans transaction-level sales data, engineers analysis fields, and
 
 ## Key Insights
 
-- Peak sales occur between 8–10 AM and 2–3 PM
-- Top 5 products generate a significant portion of total revenue
-- Revenue shows steady growth over time, indicating increasing demand
+- Peak demand window: 8-10 AM and 2-3 PM contributes 48.59% of total revenue.
+- Product concentration: the top 5 products account for 13.78% of total revenue.
+- Growth trend: monthly revenue increased from $81,677.74 in Jan 2023 to $166,485.88 in Jun 2023, a 103.83% increase.
+
+## Business Recommendations
+
+- Prioritize staffing and inventory during 8-10 AM and 2-3 PM peaks.
+- Protect top products with strong in-stock availability and bundling offers.
+- Plan capacity for continued demand growth based on month-over-month trend direction.
 
 ## Project Structure
 
