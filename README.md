@@ -11,6 +11,10 @@ Data analysis project on coffee shop transactions using Python and SQL.
 - Quantified product concentration: top 5 products contribute 13.78% of total revenue.
 - Measured strong growth: monthly revenue increased 103.83% from Jan to Jun 2023.
 
+## Dashboard Preview
+
+![Coffee Shop Sales Dashboard](outputs/charts/coffee_shop_dashboard.png)
+
 ## Overview
 
 This project cleans transaction-level sales data, engineers analysis fields, and produces KPI summaries and dashboard-ready outputs.
