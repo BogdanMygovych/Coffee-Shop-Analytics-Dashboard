@@ -2,6 +2,15 @@
 
 Data analysis project on coffee shop transactions using Python and SQL.
 
+## Project Summary
+
+- Built an end-to-end analytics pipeline on 149,116 coffee shop transactions.
+- Engineered business features (`revenue`, `month`, `hour`, `day_of_week`) for KPI and trend analysis.
+- Produced executive visuals including a combined dashboard and individual chart exports.
+- Identified demand concentration: 48.59% of revenue occurs during 8-10 AM and 2-3 PM.
+- Quantified product concentration: top 5 products contribute 13.78% of total revenue.
+- Measured strong growth: monthly revenue increased 103.83% from Jan to Jun 2023.
+
 ## Overview
 
 This project cleans transaction-level sales data, engineers analysis fields, and produces KPI summaries and dashboard-ready outputs.
@@ -24,10 +33,9 @@ This project cleans transaction-level sales data, engineers analysis fields, and
 ## Outputs
 
 - Dashboard image: outputs/charts/coffee_shop_dashboard.png
-- Individual charts:
-- outputs/charts/revenue_over_time.png
-- outputs/charts/sales_by_hour.png
-- outputs/charts/top_products_by_revenue.png
+- Individual chart: outputs/charts/revenue_over_time.png
+- Individual chart: outputs/charts/sales_by_hour.png
+- Individual chart: outputs/charts/top_products_by_revenue.png
 - Enriched dataset: data/coffee_shop_sales_enriched.csv
 - SQL query pack: sql/queries.sql
 
