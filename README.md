@@ -1,8 +1,8 @@
-# Coffee Shop Analytics
+# Coffee Shop Analytics ☕
 
 Data analysis project on coffee shop transactions using Python and SQL.
 
-## Project Summary
+## Project Summary 📌
 
 - Built an end-to-end analytics pipeline on 149,116 coffee shop transactions.
 - Engineered business features (`revenue`, `month`, `hour`, `day_of_week`) for KPI and trend analysis.
@@ -11,7 +11,7 @@ Data analysis project on coffee shop transactions using Python and SQL.
 - Quantified product concentration: top 5 products contribute 13.78% of total revenue.
 - Measured strong growth: monthly revenue increased 103.83% from Jan to Jun 2023.
 
-## Dashboard Preview
+## Dashboard Preview 📊
 
 ![Coffee Shop Sales Dashboard](outputs/charts/coffee_shop_dashboard.png)
 
@@ -19,14 +19,14 @@ Data analysis project on coffee shop transactions using Python and SQL.
 
 This project cleans transaction-level sales data, engineers analysis fields, and produces KPI summaries and dashboard-ready outputs.
 
-## Dataset
+## Dataset 🗂️
 
 - Source file: data/coffee_shop_sales_transactions.csv
 - Processed file: data/coffee_shop_sales_enriched.csv
 - Grain: one row per transaction
 - Current size: 149,116 transactions
 
-## What This Project Does
+## What This Project Does ⚙️
 
 - Removes duplicate rows
 - Removes rows with missing values
@@ -34,7 +34,7 @@ This project cleans transaction-level sales data, engineers analysis fields, and
 - Calculates KPI metrics: total revenue, total orders, average order value
 - Builds analysis views: revenue by month, top products by revenue, sales by hour
 
-## Outputs
+## Outputs 📦
 
 - Dashboard image: outputs/charts/coffee_shop_dashboard.png
 - Individual chart: outputs/charts/revenue_over_time.png
@@ -43,19 +43,19 @@ This project cleans transaction-level sales data, engineers analysis fields, and
 - Enriched dataset: data/coffee_shop_sales_enriched.csv
 - SQL query pack: sql/queries.sql
 
-## Key Insights
+## Key Insights 🔍
 
 - Peak demand window: 8-10 AM and 2-3 PM contributes 48.59% of total revenue.
 - Product concentration: the top 5 products account for 13.78% of total revenue.
 - Growth trend: monthly revenue increased from $81,677.74 in Jan 2023 to $166,485.88 in Jun 2023, a 103.83% increase.
 
-## Business Recommendations
+## Business Recommendations 💡
 
 - Prioritize staffing and inventory during 8-10 AM and 2-3 PM peaks.
 - Protect top products with strong in-stock availability and bundling offers.
 - Plan capacity for continued demand growth based on month-over-month trend direction.
 
-## Project Structure
+## Project Structure 🧱
 
 - scripts/coffee_shop_analysis.py
 - data/coffee_shop_sales_transactions.csv
@@ -64,7 +64,7 @@ This project cleans transaction-level sales data, engineers analysis fields, and
 - sql/queries.sql
 - notebooks/analysis.ipynb
 
-## Tech Stack
+## Tech Stack 🛠️
 
 - Python
 - Pandas
@@ -72,7 +72,7 @@ This project cleans transaction-level sales data, engineers analysis fields, and
 - Seaborn
 - SQL
 
-## Reproducibility
+## Reproducibility ▶️
 
 Install dependencies:
 
@@ -86,7 +86,7 @@ Run analysis pipeline:
 python scripts/coffee_shop_analysis.py
 ```
 
-## SQL Queries
+## SQL Queries 🧠
 
 Analysis queries are available in sql/queries.sql, including:
 
@@ -95,7 +95,7 @@ Analysis queries are available in sql/queries.sql, including:
 - Top products by revenue
 - Sales by hour and day of week
 
-## Tableau
+## Tableau 📈
 
 Use data/coffee_shop_sales_enriched.csv as the Tableau source file.
 
